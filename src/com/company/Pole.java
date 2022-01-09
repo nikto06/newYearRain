@@ -27,7 +27,7 @@ public class Pole extends JPanel {
     // Метод рисования чего угодно
     public void paintComponent(Graphics g) {
         g.drawImage(fon, 0, 0, null);
-        g.drawImage(person, 200, 200, null);
-        g.drawImage(gift, 100, 300, null);
+        g.drawImage(person, 200, 400, null);
+        g.drawImage(gift, 100, 200, null);
     }
 }
